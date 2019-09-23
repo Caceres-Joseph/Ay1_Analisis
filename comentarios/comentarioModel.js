@@ -1,0 +1,1 @@
+module.exports = 'comentario, id_sitio, puntuacion, id_usuario';

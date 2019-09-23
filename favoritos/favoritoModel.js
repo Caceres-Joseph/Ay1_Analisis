@@ -1,0 +1,1 @@
+module.exports = 'id_sitio, id_usuario';

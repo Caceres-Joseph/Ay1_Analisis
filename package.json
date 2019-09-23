@@ -1,0 +1,23 @@
+{
+  "name": "easytrip-api",
+  "version": "1.0.0",
+  "description": "API del proyecto EasyTrip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pvasquezf/easytrip-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pvasquezf/easytrip-api/issues"
+  },
+  "homepage": "https://gitlab.com/pvasquezf/easytrip-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}

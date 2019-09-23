@@ -1,0 +1,1 @@
+module.exports = 'nombre, calificacion, precio, latitud, longitud, ciudad, id_pais, imagen,descripcion';

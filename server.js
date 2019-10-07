@@ -7,6 +7,7 @@ const ComentariosRouter = require('./comentarios/rutas.config');
 const SitiosRouter = require('./sitios/rutas.config');
 const FavoritosRouter = require('./favoritos/rutas.config');
 const UserRouter = require('./user/rutas.config');
+const PlanificacionRouter = require('./planificacion/rutas.config');
 const app = express();
 
 app.use(function (req, res, next) {
@@ -28,6 +29,8 @@ ComentariosRouter.routesConfig(app);
 SitiosRouter.routesConfig(app);
 FavoritosRouter.routesConfig(app);
 UserRouter.routesConfig(app);
+PlanificacionRouter.routesConfig(app);
+
 
 app.listen(config.port, () => {
 	console.log(`Running on ${config.appEndpoint}`);

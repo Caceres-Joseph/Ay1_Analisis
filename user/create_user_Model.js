@@ -1,0 +1,1 @@
+module.exports = 'nombre,apellido,email,password,edad';
